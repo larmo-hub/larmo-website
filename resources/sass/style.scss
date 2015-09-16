@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+// Overwrite bootstrap variables
+$brand-primary: #008cba;
+$gray-base: #212121;
+$gray-lighter: #454545;
+$font-family-base: 'Open Sans', sans-serif;
+
+// Import bootstrap and fontawesome
+@import "bootstrap";
+@import "font-awesome";
+
+body {
+  font-size: 15pt;
+}
+
+header {
+  #links {
+    position: relative;
+    top: 15pt;
+
+    a {
+      position: relative;
+      background: $gray-base;
+      font-size: 1em;
+      margin: 0 5pt;
+      transition: background-color 0.2s, border-radius 0.2s;
+
+      &:hover {
+        background: $brand-primary;
+        border-radius: 8pt 3pt 8pt 3pt;
+      }
+    }
+  }
+}
+
+section {
+  padding: 50pt 0;
+  line-height: 2em;
+}
+
+footer {
+  background: $gray-base;
+  color: white;
+
+  h3 {
+    padding-top: 20pt;
+  }
+
+  div {
+    padding: 20pt 0;
+  }
+}

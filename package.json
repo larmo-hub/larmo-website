@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "gulp-ruby-sass": "~0.7.1",
+    "gulp": "~3.9.0",
+    "gulp-notify": "~2.2.0",
+    "gulp-bower": "0.0.10",
+    "bower": "~1.5.2"
+  }
+}
