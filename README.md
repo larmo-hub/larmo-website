@@ -1,4 +1,6 @@
-# Larmo github page
+# Larmo Website
+
+Website of *Larmo Hub* project available at [http://larmo.org](http://larmo.org).
 
 ## Development
 
