@@ -1,1 +1,4 @@
-.idea
+.idea/
+.vagrant/
+npm-debug.log
+track_bootstrap_file.txt

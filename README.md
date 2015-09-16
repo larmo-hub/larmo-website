@@ -4,7 +4,18 @@ Website of *Larmo Hub* project available at [http://larmo.org](http://larmo.org)
 
 ## Development
 
-### Dependencies
+### Automatically setup by Vagrant
+
+```
+$: vagrant up
+```
+
+Access to *Larmo Hub* website:
+
+- [http://192.168.33.10](http://192.168.33.10)
+- [http://localhost:8181](http://localhost:8181)
+
+### Manual setup
 
 #### Ruby packages
 First, we need the packages `ruby` and `ruby-sass`.
